@@ -1,0 +1,54 @@
+/* pages/me/software_doc/software_doc.wxss */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 300rpx;
+    height: 300rpx;
+    margin-top: 120rpx;
+}
+
+.info {
+    margin-top: 30rpx;
+    font-size: 32rpx;
+    color: #FF6A00;
+    align-items: center;
+}
+
+.author_url {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.author_url_value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.software_address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.software_address_value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    margin-top: 30rpx;
+    font-size: 20rpx;
+    margin-top: 40rpx;
+    color: #000000;
+}
+  

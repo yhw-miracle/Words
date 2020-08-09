@@ -1,0 +1,15 @@
+<!--pages/me/software_doc/software_doc.wxml-->
+<view class="container">
+    <image class="logo" src="../../../images/logo.jpg"></image>
+    <text class="info">软件名: 背单词</text>
+    <text class="info">作者: yhw-miracle</text>
+    <view class="info">
+        <text class="author_url">作者主页</text>
+        <text class="author_url_value">https://yhw-miracle.github.io/blog/</text>
+    </view>
+    <view class="info">
+        <text class="software_address">软件地址</text>
+    <text class="software_address_value">https://github.com/yhw-miracle/Words.git</text>
+    </view>
+    <text class="footer">Copyright (c) 2020 yhw-miracle All Right Reserved</text>
+</view>

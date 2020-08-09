@@ -1,0 +1,8 @@
+<!--pages/me/feedback/feedback.wxml-->
+<view class="container">
+    <text class="feedback">问题描述</text>
+    <textarea class="feedback_text" placeholder="请详细描述您在使用该应用中遇到的问题" placeholder-class="feebback_placeholder_text" bindblur="getFeedBackText" />
+    <text class="contact">联系方式</text>
+    <textarea class="contact_text" placeholder="请留下您的联系方式(QQ/微信/电话)" placeholder-class="contact_placeholder_text" bindblur="getContact" />
+    <button class="button_feedback" bindtap="submitFeedback">提交</button>
+</view>

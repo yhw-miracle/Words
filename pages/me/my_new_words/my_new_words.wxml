@@ -1,0 +1,11 @@
+<!--pages/me/my_new_words/my_new_words.wxml-->
+<view class="container" wx:if="{{ isHasNewWords }}">
+    <block wx:key="newWordItem" wx:for="{{ newWords }}" ex:for-index="index" wx:for-item="item">
+        <view class="new_word">
+            <text class="new_word_content">生词: {{ item.content }}</text>
+            <text class="new_word_definition_en">英文释义: {{ item.definition_en }}</text>
+            <text class="new_word_definition_cn">中文释义: {{ item.definition_cn }}</text>
+            <button class="button_cancel_new_words" bindtap="cancelNewWords" data-index="{{index}}">已认识</button>
+        </view>
+    </block>
+</view>

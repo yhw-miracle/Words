@@ -1,0 +1,131 @@
+/* pages/word/word.wxss */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.word_content {
+    margin: 50rpx auto 18rpx;
+    font-family: Chalkboard;
+    font-size: 100rpx;
+}
+
+/* .word_pronunciation_uk {
+    display: flex;
+    flex-direction: column;
+}
+
+.word_pronunciation_us {
+    display: flex;
+    flex-direction: column;
+} */
+
+.voice {
+    width: 30rpx;
+    height: 30rpx;
+}
+
+.button_previous {
+    display: flex;
+    flex-direction: column;
+    width: 150rpx;
+    height: 70rpx;
+    border: 2rpx solid #353535;
+    border-radius: 10rpx;
+    align-items: center;
+    margin-top: 30rpx;
+    margin-bottom: 30rpx;
+}
+  
+  .word_previous {
+    margin: auto;
+    font-family: Songti TC;
+    font-size: 32rpx;
+    color: #585858;
+}
+
+.button_miss {
+    display: flex;
+    flex-direction: column;
+    width: 150rpx;
+    height: 70rpx;
+    border: 2rpx solid #353535;
+    border-radius: 10rpx;
+    align-items: center;
+    margin-bottom: 30rpx;
+}
+  
+.word_miss {
+    margin: auto;
+    font-family: Songti TC;
+    font-size: 32rpx;
+    color: #585858;
+}
+
+.button_next {
+    display: flex;
+    flex-direction: column;
+    width: 150rpx;
+    height: 70rpx;
+    border: 2rpx solid #353535;
+    border-radius: 10rpx;
+    align-items: center;
+}
+
+.word_next {
+    margin: auto;
+    font-family: Songti TC;
+    font-size: 32rpx;
+    color: #585858;
+}
+
+.button_show_definition {
+    display: flex;
+    flex-direction: column;
+    width: 360rpx;
+    height: 70rpx;
+    border: 2rpx solid #353535;
+    border-radius: 10rpx;
+    align-items: center;
+    margin-top: 100rpx;
+}
+
+.show_definition {
+    margin: auto;
+    font-family: Songti TC;
+    font-size: 32rpx;
+    color: #585858;
+}
+
+.definition_en_container {
+    margin-top: 20rpx;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+    color: #585858;
+    align-items: center;
+}
+
+.definition_en_text {
+    font-size: 40rpx;
+    font-family: Yuanti TC;
+    color: #FF6A00;
+}
+
+.definition_cn_container {
+    margin-top: 20rpx;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+    color: #585858;
+    align-items: center;
+}
+
+.definition_cn_text {
+    font-size: 40rpx;
+    font-family: Yuanti TC;
+    color: #FF6A00;
+}

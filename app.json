@@ -1,0 +1,44 @@
+{
+    "pages": [
+        "pages/word/word",
+        "pages/review/review",
+        "pages/me/me",
+        "pages/me/feedback/feedback",
+        "pages/me/software_doc/software_doc",
+        "pages/me/user_terms/user_terms",
+        "pages/me/my_new_words/my_new_words"
+    ],
+    "tabBar": {
+        "backgroundColor": "#FFFFFF",
+        "borderStyle": "white",
+        "list": [
+            {
+                "pagePath": "pages/word/word",
+                "text": "词汇",
+                "iconPath": "images/word.png",
+                "selectedIconPath": "images/word_selected.png"
+            },
+            {
+                "pagePath": "pages/review/review",
+                "text": "复习",
+                "iconPath": "images/review.png",
+                "selectedIconPath": "images/review_selected.png"
+            },
+            {
+                "pagePath": "pages/me/me",
+                "text": "我",
+                "iconPath": "images/me.png",
+                "selectedIconPath": "images/me_selected.png"
+            }
+        ]
+    },
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#ff6a00",
+        "navigationBarTitleText": "背单词啦",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,12 @@
+<!--pages/me/user_terms/user_terms.wxml-->
+<view class="container">
+    <text class="terms_header">关于【背单词】应用的一些使用条款</text>
+    <text class="terms_body" space="nbsp">
+        1. 该应用中使用的英语词汇信息来自于小学、中学、大学各阶段的英语教材，市面上所有的英语辅导书，网络上的一切英语资源，在此一并对这些英语资源表示感谢；
+        
+        2. 该应用是纯粹是一位英语爱好者开发的开源程序，目的是帮助更多的人学好英语，提供英语爱好者们的一个交流平台。程序开源地址为 https://github.com/yhw-miracle/Words.git;
+        
+        3. 该应用会根据英语爱好者反馈的意见或建议，持续更新，敬请期待，希望您在英语的学习路上一帆风顺！
+    </text>
+    <text class="terms_footer">Copyright (c) 2020 yhw-miracle All Right Reserved</text>
+</view>

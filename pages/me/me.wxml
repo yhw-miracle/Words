@@ -1,0 +1,31 @@
+<view class="container">
+	<view class="userinfo">
+		<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+		<block wx:else>
+			<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+			<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+		</block>
+	</view>
+    <view class="my_container">
+        <view class="item" bindtap="showMyNewWords">
+            <image class="icon" src="../../images/new_word.png"></image>
+            <text class="menu_text">我的生词</text>
+        </view>
+        <view class="item" bindtap="showUserTerms">
+            <image class="icon" src="../../images/user_terms.png"></image>
+            <text class="menu_text">使用条款</text>
+        </view>
+        <view class="item" bindtap="showSoftwareDoc">
+            <image class="icon" src="../../images/software_doc.png"></image>
+            <text class="menu_text">软件说明</text>
+        </view>
+        <view class="item" bindtap="communication" bindtap="communicate">
+            <image class="icon" src="../../images/communication.png"></image>
+            <text class="menu_text">交流学习</text>
+        </view>
+        <view class="item" bindtap="feedBack">
+            <image class="icon" src="../../images/feedback.png"></image>
+            <text class="menu_text">用户反馈</text>
+        </view>
+    </view>
+</view>

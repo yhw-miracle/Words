@@ -1,0 +1,31 @@
+<!--pages/word/word.wxml-->
+<view class="container">
+    <text class="word_content">{{ content }}</text>
+    <view class="pronunciations_container">
+        <text class="word_pronunciation_uk" bindtap="read_pronunciations_uk">英: {{ pronunciations_uk }}</text>
+        <image class="voice" src="../../images/voice.png" bindtap="read_pronunciations_us"></image>
+        <text class="word_pronunciation_us" bindtap="read_pronunciations_us">美: {{ pronunciations_us }}</text>
+        <image  class="voice" src="../../images/voice.png" bindtap="read_pronunciations_us"></image>
+    </view>
+    <view class="button_previous" catchtap="previous">
+        <text class="word_previous" catchtap="previous">上一个</text>
+    </view>
+    <view class="button_miss" catchtap="noKnown">
+        <text class="word_miss" catchtap="noKnown">不认识</text>
+    </view>
+    <view class="button_next" catchtap="next">
+        <text class="word_next" catchtap="next">下一个</text>
+    </view>
+    <view class="button_show_definition" catchtap="show">
+        <text class="show_definition" catchtap="show">显示释义</text>
+    </view>
+    <!-- <text wx:if="{{ is_has_definition_en }}" class="difinition_en_container">英文释义: {{ definition_en }}</text>
+    <text wx:if="{{ is_has_definition_cn }}" class="difinition_cn_container">中文释义: {{ definition_cn }}</text> -->
+
+    <view class="definition_en_container" wx:if="{{ is_has_definition_en && is_show_definition_en }}">
+        <text wx:if="{{ is_has_definition_en }}" class="definition_en_text">英文释义: {{ definition_en }}</text>
+    </view>
+    <view class="definition_cn_container" wx:if="{{ is_has_definition_cn && is_show_definition_cn }}">
+        <text wx:if="{{ is_has_definition_cn }}" class="definition_cn_text">中文释义: {{ definition_cn }}</text>
+    </view>
+</view>

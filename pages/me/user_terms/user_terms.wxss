@@ -1,0 +1,21 @@
+/* pages/me/user_terms/user_terms.wxss */
+
+.container {
+    margin: 30rpx 20rpx 20rpx 30rpx;
+}
+
+.terms_header {
+    font-size: 35rpx;
+    color: #000000;
+}
+
+.terms_body {
+    font-size: 30rpx;
+    color: #000000;
+}
+
+.terms_footer {
+    font-size: 20rpx;
+    color: #000000;
+    align-items: center;
+}

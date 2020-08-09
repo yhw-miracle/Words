@@ -1,0 +1,52 @@
+/* pages/me/feedback/feedback.wxss */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.feedback {
+    margin-top: 40px;
+    font-size: 30rpx;
+}
+
+.feedback_text {
+    margin-top: 40rpx;
+    background-color: #ffccaa;
+    padding: 30rpx;
+    width: 80%;
+    border-radius: 10rpx;
+}
+
+.feebback_placeholder_text {
+    color: #515151;
+}
+
+.contact {
+    margin-top: 60rpx;
+    font-size: 30rpx;
+}
+
+.contact_text {
+    margin-top: 40rpx;
+    background-color: #ffccaa;
+    padding: 30rpx;
+    font-size: 30rpx;
+    width: 80%;
+    height: 30rpx;
+    border-radius: 10rpx;
+}
+
+.contact_placeholder_text {
+    color: #515151;
+}
+
+.button_feedback {
+    background-color: #ff6a00;
+    margin-top: 80rpx;
+    width: 80%;
+    font-size: 30rpx;
+}
